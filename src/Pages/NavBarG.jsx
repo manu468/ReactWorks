@@ -3,6 +3,7 @@ import "../assets/main.css";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Nav from "react-bootstrap/Nav";
+import {Link} from "react-router-dom"
 
 const NavBarG = () => {
   return (
@@ -24,12 +25,12 @@ const NavBarG = () => {
         <Navbar.Brand >Home</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="mr-auto">
-            <Nav.Link href="/contactus">About Us</Nav.Link>
-            <Nav.Link href="/gallery">Gallery</Nav.Link>
-            <Nav.Link href="/pricing">Banquet Facility</Nav.Link>
-            <Nav.Link href="/catering">Catering</Nav.Link>
-            <Nav.Link to="/contactus">Contact Us</Nav.Link>
+          <Nav className="mr-auto" style={{color:"white"}}>
+            <Link style={{color:"white",padding:"10px"}} to="/contactus">About Us</Link>
+            <Link style={{color:"white",padding:"10px"}} to="/gallery">Gallery</Link>
+            <Link style={{color:"white",padding:"10px"}} to="/pricing">Banquet Facility</Link>
+            <Link style={{color:"white",padding:"10px"}} to="/catering">Catering</Link>
+            <Link style={{color:"white",padding:"10px"}} to="/contactus">Contact Us</Link>
           </Nav>
           <Nav>
             <Nav.Link href="#deets">Book A Banquet</Nav.Link>
