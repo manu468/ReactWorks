@@ -5,7 +5,7 @@ import Card from "react-bootstrap/Card";
 import Form from "react-bootstrap/Form"
 import NavBarg from "../Pages/NavBarG";
 const DashBoard = () => {
-  alert("Under production. Fork the project to watch progress ");
+  
   return (
     <div>
       <div
