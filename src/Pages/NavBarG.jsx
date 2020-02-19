@@ -29,8 +29,8 @@ const NavBarG = () => {
             <Link style={{color:"white",padding:"10px"}} to="/contactus">About Us</Link>
             <Link style={{color:"white",padding:"10px"}} to="/gallery">Gallery</Link>
             <Link style={{color:"white",padding:"10px"}} to="/pricing">Banquet Facility</Link>
-            <Link style={{color:"white",padding:"10px"}} to="/catering">Catering</Link>
-            <Link style={{color:"white",padding:"10px"}} to="/contactus">Contact Us</Link>
+            <Link style={{color:"white",padding:"10px"}} >Catering</Link>
+           
           </Nav>
           <Nav>
             <Nav.Link href="#deets">Book A Banquet</Nav.Link>
